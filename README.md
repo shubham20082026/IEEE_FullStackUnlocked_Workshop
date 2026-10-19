@@ -94,29 +94,21 @@ git init                          # Initialise a new repository
 git add .                         # Stage all changes
 git commit -m "Created event tracker frontend"
 git push -u origin master         # Push to GitHub
-
-Here’s a clean, ready-to-copy version **starting from Section 4** onwards (in proper Markdown format):
-
-```markdown
-### 4. Backend Development with Flask
-
-I created my first server using a minimal Flask application:
-
-```python
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route("/")
-def home():
-    return "API is running"
-
-app.run(port=5000)
 ```
-
 - Learned how to spin up a local server (`localhost:5000`).
 - Understood the concept of routes and returning responses.
 - Built my first real API endpoint: `GET /api/events` that returns a list of events in JSON format.
+
+Git tracks every version of my code so I can go back in time.
+GitHub stores the repository online and makes collaboration possible.
+I pushed my frontend code as a checkpoint after completing the client-side portion.
+
+### 4. Backend Development with Flask
+I created my first server using a minimal Flask application.
+
+Learned how to spin up a local server (localhost:5000).
+Understood the concept of routes and returning responses.
+Built my first real API endpoint: GET /api/events that returns a list of events in JSON format.
 
 ### 5. APIs – How Frontend and Backend Talk
 
