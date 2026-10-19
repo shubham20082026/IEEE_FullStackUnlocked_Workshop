@@ -223,4 +223,4 @@ Full-Stack-Unlocked/
 
 **Built with curiosity during the Full Stack Unlocked workshop.**  
 One app. Built by me. From scratch.
-```
+
