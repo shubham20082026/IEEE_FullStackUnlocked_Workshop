@@ -219,8 +219,3 @@ Full-Stack-Unlocked/
 - Improve UI/UX (loading states, form validation, better card design)
 - Deploy the full application (frontend + backend)
 
----
-
-**Built with curiosity during the Full Stack Unlocked workshop.**  
-One app. Built by me. From scratch.
-
